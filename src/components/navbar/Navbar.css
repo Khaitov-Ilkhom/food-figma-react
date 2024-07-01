@@ -1,0 +1,41 @@
+.nav {
+    width: 100%;
+}
+.nav-ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav li {
+    list-style-type: none;
+}
+.nav li h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.nav-ul li h3 span {
+    color: yellow;
+}
+.nav li p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.025em;
+    color: #dddddd;
+}
+.nav-ul li input {
+    min-width: 300px;
+    outline: none;
+    padding: 14px 24px;
+    border-radius: 25px;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.33);
+}
+.nav-ul li input::placeholder {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}

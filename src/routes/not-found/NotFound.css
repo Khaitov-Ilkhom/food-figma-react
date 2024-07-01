@@ -1,0 +1,8 @@
+.notFound {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../image/error.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
