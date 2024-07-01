@@ -1,8 +1,31 @@
-import React from 'react'
+import "./Drinks.css"
+import {deserts, drinks} from "../../../../utils/fakeData.js";
+import {FaStar} from "react-icons/fa";
+import {FaPlus, FaStarHalfStroke} from "react-icons/fa6";
 
 const Drinks = () => {
     return (
-        <div>Drinks</div>
+        <div className="drinks">
+            <div className="cards">
+                {
+                    drinks.map(product =>
+                        <div key={product.id} className="card">
+                            <div className="card-img">
+                                <img src={product.img} alt={product.name}/>
+                            </div>
+                            <div className="card-body">
+                                <h3>{product.name}</h3>
+                                <p className="desc">{product.description}</p>
+                                <p className="star"><span><FaStar/></span> <span><FaStar/></span> <span><FaStar/></span>
+                                    <span><FaStar/></span> <span><FaStarHalfStroke/></span> {product.rating}</p>
+                                <h5>${product.price}</h5>
+                                <button><FaPlus/></button>
+                            </div>
+                        </div>
+                    )
+                }
+            </div>
+        </div>
     )
 }
 export default Drinks

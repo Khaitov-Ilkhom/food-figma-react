@@ -3,12 +3,6 @@ import noodles1 from "../image/1.png";
 import noodles3 from "../image/3.png";
 // import noodles4 from "../image/4.png";
 
-import burger1 from "../image/burger1.png";
-import burger2 from "../image/burger2.jpg";
-
-
-
-
 const noodles = [
     {
         id: 1,
@@ -51,7 +45,7 @@ const burgers = [
         description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
         rating: 4.5,
         price: 8.08,
-        img: burger1,
+        img: noodles1,
     },
     {
         id: 2,
@@ -59,7 +53,7 @@ const burgers = [
         description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
         rating: 4.5,
         price: 8.08,
-        img: burger2,
+        img: noodles3,
     },
     {
         id: 3,
@@ -67,7 +61,7 @@ const burgers = [
         description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
         rating: 4.5,
         price: 8.08,
-        img: burger1,
+        img: noodles1,
     },
     {
         id: 4,
@@ -75,8 +69,79 @@ const burgers = [
         description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
         rating: 4.5,
         price: 8.08,
-        img: burger2,
+        img: noodles3,
     }
 ]
 
-export {noodles, burgers}
+const drinks = [
+    {
+        id: 1,
+        name: "Coca Cola",
+        description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+        rating: 4.5,
+        price: 12.05,
+        img: noodles1,
+    },
+    {
+        id: 2,
+        name: "Pepsi",
+        description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+        rating: 4.5,
+        price: 12.05,
+        img: noodles3,
+    },
+    {
+        id: 3,
+        name: "Fanta",
+        description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+        rating: 4.5,
+        price: 12.05,
+        img: noodles1,
+    },
+    {
+        id: 4,
+        name: "Dena",
+        description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+        rating: 4.5,
+        price: 12.05,
+        img: noodles3,
+    }
+]
+
+const deserts = [
+    {
+        id: 1,
+        name: "Chocolate",
+        description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+        rating: 4.5,
+        price: 18.08,
+        img: noodles1,
+    },
+    {
+        id: 2,
+        name: "Chococream",
+        description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+        rating: 4.5,
+        price: 18.08,
+        img: noodles3,
+    },
+    {
+        id: 3,
+        name: "Chocotella",
+        description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+        rating: 4.5,
+        price: 18.08,
+        img: noodles1,
+    },
+    {
+        id: 4,
+        name: "Nutella",
+        description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+        rating: 4.5,
+        price: 18.08,
+        img: noodles3,
+    }
+]
+
+
+export {noodles, burgers, drinks, deserts}

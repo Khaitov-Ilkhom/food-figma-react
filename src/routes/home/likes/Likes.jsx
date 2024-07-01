@@ -1,8 +1,10 @@
-import React from 'react'
+import "./Likes.css"
 
 const Likes = () => {
     return (
-        <div>Likes</div>
+        <div>
+            <h1>Likes</h1>
+        </div>
     )
 }
 export default Likes
