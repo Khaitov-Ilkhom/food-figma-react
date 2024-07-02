@@ -10,6 +10,7 @@ import Noodles from "./home/products/noodles/Noodles.jsx";
 import Burgers from "./home/products/burger/Burgers.jsx";
 import Drinks from "./home/products/drink/Drinks.jsx";
 import Deserts from "./home/products/desert/Deserts.jsx";
+import Single from "./home/products/single-page/Single.jsx";
 
 
 const RouteController = () => {
@@ -27,6 +28,7 @@ const RouteController = () => {
                 <Route path="coupons" element={<Coupons/>}/>
                 <Route path="settings" element={<Settings/>}/>
             </Route>
+            <Route path="/single/:id" element={<Single/>} />
             <Route path="not-found" element={<NotFound/>}/>
             <Route path="*" element={<Navigate to="not-found" />}/>
         </Routes>

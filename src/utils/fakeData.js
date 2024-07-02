@@ -16,8 +16,7 @@ import desert2 from "../image/desert2.png"
 import desert3 from "../image/desert3.png"
 import desert4 from "../image/desert4.png"
 
-
-const noodles = [
+const cardInfo = [
     {
         id: 1,
         name: "Chinese Yakisbo",
@@ -49,12 +48,9 @@ const noodles = [
         rating: 4.5,
         price: 5.08,
         img: noodles3,
-    }
-]
-
-const burgers = [
+    },
     {
-        id: 1,
+        id: 5,
         name: "Chinese Burger",
         description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
         rating: 4.5,
@@ -62,7 +58,7 @@ const burgers = [
         img: burger1,
     },
     {
-        id: 2,
+        id: 6,
         name: "Fried Burger",
         description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
         rating: 4.5,
@@ -70,7 +66,7 @@ const burgers = [
         img: burger2,
     },
     {
-        id: 3,
+        id: 7,
         name: "Chinese Burger",
         description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
         rating: 4.5,
@@ -78,18 +74,15 @@ const burgers = [
         img: burger3,
     },
     {
-        id: 4,
+        id: 8,
         name: "Fried Burger",
         description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
         rating: 4.5,
         price: 8.08,
         img: burger4,
-    }
-]
-
-const drinks = [
+    },
     {
-        id: 1,
+        id: 9,
         name: "Milk",
         description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
         rating: 4.5,
@@ -97,7 +90,7 @@ const drinks = [
         img: drink1,
     },
     {
-        id: 2,
+        id: 10,
         name: "Coffee",
         description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
         rating: 4.5,
@@ -105,7 +98,7 @@ const drinks = [
         img: drink2,
     },
     {
-        id: 3,
+        id: 11,
         name: "Tea ",
         description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
         rating: 4.5,
@@ -113,18 +106,15 @@ const drinks = [
         img: drink3,
     },
     {
-        id: 4,
+        id: 12,
         name: "Coca Cola",
         description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
         rating: 4.5,
         price: 12.05,
         img: drink4,
-    }
-]
-
-const deserts = [
+    },
     {
-        id: 1,
+        id: 13,
         name: "Cruassan",
         description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
         rating: 4.5,
@@ -132,7 +122,7 @@ const deserts = [
         img: desert1,
     },
     {
-        id: 2,
+        id: 14,
         name: "Chocolate Brownie",
         description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
         rating: 4.5,
@@ -140,7 +130,7 @@ const deserts = [
         img: desert2,
     },
     {
-        id: 3,
+        id: 15,
         name: "Bun",
         description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
         rating: 4.5,
@@ -148,7 +138,7 @@ const deserts = [
         img: desert3,
     },
     {
-        id: 4,
+        id: 16,
         name: "Nutella",
         description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
         rating: 4.5,
@@ -157,5 +147,4 @@ const deserts = [
     }
 ]
 
-
-export {noodles, burgers, drinks, deserts}
+export {cardInfo}
