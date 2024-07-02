@@ -13,15 +13,16 @@ li {
 }
 .product-list li a {
     font-size: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.61);
+    border: 2px solid rgba(255, 255, 255, 0.61);
     padding: 6px 50px;
     border-radius: 30px;
-    background-color: rgba(255, 255, 255, 0.27);
+    background-color: rgba(255, 255, 255, 0.62);
+    transition: 0.6s;
 }
 .product-list li a img {
     width: 60px;
     padding-right: 14px;
 }
 .product-list li .active {
-    border: 1px solid #f6de3a;
+    border: 2px solid #213cef;
 }

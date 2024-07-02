@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="nav">
             <ul className="nav-ul">
                 <li>
-                    <h3>Welcome, Ali <span><PiHandWavingDuotone/></span></h3>
+                    <h3>Welcome, Ali <span> <PiHandWavingDuotone/></span></h3>
                     <p>Discover whatever you need</p>
                 </li>
                 <li>

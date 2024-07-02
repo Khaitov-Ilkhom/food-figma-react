@@ -1,7 +1,21 @@
 import noodles1 from "../image/1.png";
-// import noodles2 from "../image/2.png";
 import noodles3 from "../image/3.png";
-// import noodles4 from "../image/4.png";
+
+import burger1 from "../image/burger1.png";
+import burger2 from "../image/burger2.png";
+import burger3 from "../image/burger3.png";
+import burger4 from "../image/burger4.png";
+
+import drink1 from "../image/drink1.png";
+import drink2 from "../image/drink2.png";
+import drink3 from "../image/drink3.png";
+import drink4 from "../image/drink4.png";
+
+import desert1 from "../image/desert1.png"
+import desert2 from "../image/desert2.png"
+import desert3 from "../image/desert3.png"
+import desert4 from "../image/desert4.png"
+
 
 const noodles = [
     {
@@ -45,7 +59,7 @@ const burgers = [
         description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
         rating: 4.5,
         price: 8.08,
-        img: noodles1,
+        img: burger1,
     },
     {
         id: 2,
@@ -53,7 +67,7 @@ const burgers = [
         description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
         rating: 4.5,
         price: 8.08,
-        img: noodles3,
+        img: burger2,
     },
     {
         id: 3,
@@ -61,7 +75,7 @@ const burgers = [
         description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
         rating: 4.5,
         price: 8.08,
-        img: noodles1,
+        img: burger3,
     },
     {
         id: 4,
@@ -69,69 +83,69 @@ const burgers = [
         description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
         rating: 4.5,
         price: 8.08,
-        img: noodles3,
+        img: burger4,
     }
 ]
 
 const drinks = [
     {
         id: 1,
+        name: "Milk",
+        description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+        rating: 4.5,
+        price: 12.05,
+        img: drink1,
+    },
+    {
+        id: 2,
+        name: "Coffee",
+        description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+        rating: 4.5,
+        price: 12.05,
+        img: drink2,
+    },
+    {
+        id: 3,
+        name: "Tea ",
+        description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+        rating: 4.5,
+        price: 12.05,
+        img: drink3,
+    },
+    {
+        id: 4,
         name: "Coca Cola",
         description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
         rating: 4.5,
         price: 12.05,
-        img: noodles1,
-    },
-    {
-        id: 2,
-        name: "Pepsi",
-        description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-        rating: 4.5,
-        price: 12.05,
-        img: noodles3,
-    },
-    {
-        id: 3,
-        name: "Fanta",
-        description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-        rating: 4.5,
-        price: 12.05,
-        img: noodles1,
-    },
-    {
-        id: 4,
-        name: "Dena",
-        description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-        rating: 4.5,
-        price: 12.05,
-        img: noodles3,
+        img: drink4,
     }
 ]
 
 const deserts = [
     {
         id: 1,
-        name: "Chocolate",
+        name: "Cruassan",
         description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
         rating: 4.5,
         price: 18.08,
-        img: noodles1,
+        img: desert1,
     },
     {
         id: 2,
-        name: "Chococream",
+        name: "Chocolate Brownie",
         description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
         rating: 4.5,
         price: 18.08,
-        img: noodles3,
+        img: desert2,
     },
     {
         id: 3,
-        name: "Chocotella",
+        name: "Bun",
         description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
         rating: 4.5,
         price: 18.08,
-        img: noodles1,
+        img: desert3,
     },
     {
         id: 4,
@@ -139,7 +153,7 @@ const deserts = [
         description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
         rating: 4.5,
         price: 18.08,
-        img: noodles3,
+        img: desert4,
     }
 ]
 

@@ -17,7 +17,7 @@
     line-height: 40px;
 }
 .nav-ul li h3 span {
-    color: yellow;
+    color: #fa9a1b;
 }
 .nav li p {
     font-size: 18px;
@@ -32,7 +32,7 @@
     padding: 14px 24px;
     border-radius: 25px;
     border: 1px solid white;
-    background-color: rgba(255, 255, 255, 0.33);
+    background-color: rgba(255, 255, 255, 0.58);
 }
 .nav-ul li input::placeholder {
     color: black;
