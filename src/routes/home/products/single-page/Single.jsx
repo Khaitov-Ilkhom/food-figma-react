@@ -3,21 +3,24 @@ import {Link, useParams} from "react-router-dom";
 import {cardInfo} from "../../../../utils/fakeData.js";
 
 const Single = () => {
-
-    const data = useParams()
+    const {id} = useParams()
+    const food = cardInfo.filter(food => food.id === parseInt(id))
+    if (!food) {
+        return <div>Food Not Found</div>
+    }
+    console.log(food)
     return (
         <div className="single">
-            <div>
+            <div className="back">
                 <Link to="/products">Back...</Link>
             </div>
             <div className='single-card'>
-                {
-                    cardInfo.filter(card => card.id === data).map(card =>
-                        <div className="single-card-body">
-                            <img src={card.img} alt=""/>
-                        </div>
-                    )
-                }
+                <div>
+                    <img style={{width: "100px"}} src={food.img} alt={food.name}/>
+                </div>
+                <div>
+                    <h2>{food.name}</h2>
+                </div>
             </div>
         </div>
     )
